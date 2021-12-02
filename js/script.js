@@ -20,3 +20,33 @@
 
     
 // stampo il valore tramite innerHTML o textContent;
+
+
+const passContainer=document.getElementById("passContainer");
+
+//DICHIARO LE VARIABILI
+let nome;
+let cognome;
+let colore;
+let password="";
+const NUM="21";
+
+
+nome=prompt("ciao come ti chiami ?");
+// aggiorno password e stampo in console cosi da controllare che vada tutto bene.
+password=password+nome;
+console.log(password);
+
+cognome=prompt(`bene ${nome} , qual'è il tuo cognome ?`);
+password=password+cognome;
+console.log(password);
+
+colore=prompt("ahhh come il famoso dittatore ... e qual' il tuo colore preferito ?");
+password=password+colore;
+console.log(password);
+
+// aggiungo la costante 21
+password=password+NUM;
+console.log(password);
+
+passContainer.innerHTML=`bene bene ecco la tua password:  ${password}`;
