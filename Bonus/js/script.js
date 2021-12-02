@@ -44,7 +44,7 @@ for(let i=0;i<6;i++){
 }
 
 box.style.backgroundColor=colorPass.toUpperCase();
-document.getElementById("pass").textContent=colorPass;
+document.getElementById("pass").textContent=colorPass.toUpperCase();
 console.log(`la passColor generata dal tuo nome , il tuo cognome e il tuo anno di nascita è ${colorPass}`);
 
 });

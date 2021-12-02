@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Bonus</title>
 </head>
@@ -11,12 +12,23 @@
     
     
     <div class="container">
-        <h1 class="titolo">ColorPass Generetor</>
-        <div class="box" id="box">
-            <div id="pass">teretre</div>
-        </div>
+        
+        <h1 class="" id="title">ColorPassword</h1>
+        <p class="description">Halo, generiamo una password di sei cifre che sia anche un colore esadecimale</p>
 
-        <button class="btn" id="restart">START</button>
+        <div class="circle-container">
+            <div class="box shadow" id="box"></div>
+        </div>
+        
+        <div class="text-container col-6 mx-auto">
+            <h2 class="pass " id="pass">#XXXXXX</h2>
+        </div>
+        
+        <div class="d-grid gap-2 col-6 mx-auto">
+
+            <button type="button" class="btn btn-light shadow" id="restart">Start</button>
+          </div>
+
     </div>
     
 
